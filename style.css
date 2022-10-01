@@ -1,0 +1,91 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+}
+
+body{
+    background-color: #aaa;
+}
+
+.navbar{
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: space-between;
+    font-family: pretendard;
+    padding: 10px 0px 10px 0px;
+    background-color: #ffffff1a;
+    color: rgb(0, 0, 0);
+    padding: 3.5vh 7vh 3.5vh 7vh;
+}
+
+.navbar .logo{
+    white-space: nowrap;
+    font-family: pretendard;
+    font-weight: 900;
+    font-size: 3vh;
+    color: #000000;
+}
+
+.navbar .menu-button{
+    white-space: nowrap;
+}
+
+.navbar .menu-button div, .navbar .join-button{
+    white-space: nowrap;
+    display: inline-block;
+    padding: 0vh 4vh;
+    font-size: 2.2vh;
+}
+
+.navbar .menu-button div a , .navbar .join-button a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.navbar .join-button a{
+    display: flex;
+    align-items:flex-end;
+}
+
+.navbar .join-button a #login_image{
+    padding-right: 1.5vh;
+    height: 2.5vh;
+}
+
+/* .navbar .navbar-button #menu-button div{ 
+    list-style: none;
+    display: inline-flex;
+    padding: 5px 20px 0px 20px;
+    border: none;
+    border-radius: 10%;
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+.navbar .navbar-button #menu-button div a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.navbar-button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#join-button {
+    height: 30px    ;
+    color: white;
+    background-color: #0000d7;
+    border: none;
+    border-radius: 10px;
+} */ 
